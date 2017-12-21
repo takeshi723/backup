@@ -20,5 +20,19 @@
     <s:submit value = "問い合わせー"/>
   </s:form>
 
+  <h3>新規ユーザー登録</h3>
+  GETつうしん
+  <s:form method = "get" action = "TestAction">
+  <s:textfield name = "username"/>
+  <s:password name = "password"/>
+  <s:submit value = "送信"/>
+  </s:form>
+  POSTつうしん
+  <s:form method = "post" action = "TestAction">
+  <s:textfield name = "username" placeholder = "なまえ"/>
+  <s:password name = "password"/>
+  <s:submit value = "そうしん"/>
+  </s:form>
+
 </body>
 </html>
